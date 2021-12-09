@@ -128,6 +128,9 @@ It can take as little as 5 minutes for Microsoft 365 to remove a domain if it's 
 
 If you have hundreds or thousands of users, use PowerShell to query for all users and then move them to another domain. Otherwise, it's possible for a handful of users to be missed in the UI, and then when you go to remove the domain, you won't be able to and you won't know why. See [Set-MsolUserPrincipalName](/powershell/module/msonline/set-msoluserprincipalname) for more information. To set the default domain, use [Set-MsolDomain](/powershell/module/msonline/set-msoldomain).
 
+**Automatically Removal**
+in the M365 portal you can go to settings --> Domains --> Select the domain --> Remove Domain and then select --> automatically remove (it says it make take up to 24h to complete)
+
 ## Still need help?
 
 ::: moniker range="o365-worldwide"
